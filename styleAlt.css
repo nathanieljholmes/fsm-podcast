@@ -34,24 +34,22 @@ body {
 
 
 }
-.white-font{
-    color: white;
-    
-}
+
 .promo-container{
-    margin-top: 131px;
+    margin-top: 100.63px;
     width: 723px;
-    height: 509px;
+    height: 615.37px;
     background-color: #121725;
     position: absolute;
     top:0;
     left: 0;
 
 }
+.promo-subcontainer{
+    display: flex;
+}
 .promo-title{
-    margin-top: 88px;
-    width: 665px;
-    height: 124px;
+    margin-top:45.5px;
     color: #54E6AF;
     font-family: Chivo;
     font-style: normal;
@@ -63,8 +61,8 @@ body {
 .promo-summary{
     width: 445px;
     height: 84px;
-    margin-top: 24px;
-    margin-bottom: 40px;
+    margin-top: 14px;
+    margin-bottom: 21px;
     font-family: Chivo;
     font-style: normal;
     font-weight: 300;
@@ -72,46 +70,64 @@ body {
     line-height: 28px;
     color: #C2CBE5;
 }
-.promo-submit{
-    position: relative;
-    width: 427px;
-    height: 56px;
-    margin-bottom: 8px;
-
+.promo-form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 .promo-input{
-    width: 394px;
+    display: flex;
+    align-items: center;
+    padding-left: 32px;
+    width: 427px;
     height: 56px;
+    background: #2C344B;
+    border-radius: 28px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    outline: none;
+    color: rgba(255, 255, 255, 0.5);
     border: none;
+}
+.promo-text-area{
+    align-self: center;
+    display: flex;
+    padding-top: 21.26px;
+    padding-left: 28.31px;
+    width: 427px;
+    height: 130.24px;
     outline: none;
     background: #2C344B;
     border-radius: 28px;
+    margin-bottom: 8.39px;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 28px;
     color: rgba(255, 255, 255, 0.5);
+    border: none;
+    resize: none;
 }
-.promo-input:focus{
-    color: white;
-}
-input[type="text" i] {
-    padding-left: 32px
+.promo-text-area textarea{
+    padding: 0;
 }
 
+
 .promo-button{
-    position: absolute;
-    top: 6px;
-    right: 6px;
-    width: 162px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    width: 420px;
     height: 46px;
     color: black;
-    outline: none;
-    border: none;
-    background-color: #54E6AF;
+    background: #54E6AF;
     box-shadow: 0px 2px 4px rgba(84, 230, 175, 0.14);
     border-radius: 28px;
-    z-index: 5;
 }
 .promo-button:hover{
     background-color: #B3FFE2;
@@ -119,21 +135,21 @@ input[type="text" i] {
     cursor: pointer;
     z-index: 6;
 }
-
 .error{
     padding-left: 32px;
     color: #FB3E3E;
     font-size: 12px;
     line-height: 14px;
-    margin-bottom: 42px;
+    margin-bottom: 8.37px;
 }
-
 .promo-affiliates{
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .affiliate-icon{
-    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-left: 76px;
 }
 .image-host{
     width: 1275px;

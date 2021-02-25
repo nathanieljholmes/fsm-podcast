@@ -15,44 +15,48 @@
 
 <body>
   <div class="main">
-    
+
     <div class="main-container">
-      
+
       <div class="container">
-        
+
         <div class="title">
           <div class="title-icon"></div>
           <div class="title-name">pod</div>
         </div>
-        
+
         <div class="host-container">
           <div class="polka-dots"><img src="/assets/desktop/bg-pattern-dots.svg" alt=""></div>
           <div class="image-host">
             <img src="/assets/desktop/image-host.jpg" alt="">
           </div>
-          
+
           <div class="promo-container">
-            
+
             <div class="promo-title">Publish your podcasts
-              <span class="white-font">everywhere.</span></div>
+              <span class="white-font">everywhere.</span>
+            </div>
             <div class="promo-summary">Upload your audio to Pod with a single click. We’ll then distribute your podcast
               to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!</div>
-            <div class="promo-input">Email Address
-              <div class="promo-button">Request Access</div>
+            <div class="promo-submit">
+              <button id="submitBtn" type="submit" class="promo-button">Request Access</button>
+              <input id="email" type="text" class="promo-input" placeholder="Email Address"></input>
             </div>
-            <div class="promo-affiliates">
-             <div class="affiliate-icon"><img src="/assets/desktop/spotify.svg" alt=""></div>
-             <div class="affiliate-icon"><img src="/assets/desktop/apple-podcast.svg" alt=""></div>
-             <div class="affiliate-icon"><img src="/assets/desktop/google-podcasts.svg" alt=""></div>
-             <div class="affiliate-icon"><img src="/assets/desktop/pocket-casts.svg" alt=""></div>
-            </div>
-           
+            <div id="errorEvt" class="error">Oops! Please check your email</div>
           </div>
-          
+          <div class="promo-affiliates">
+            <div class="affiliate-icon"><img src="/assets/desktop/spotify.svg" alt=""></div>
+            <div class="affiliate-icon"><img src="/assets/desktop/apple-podcast.svg" alt=""></div>
+            <div class="affiliate-icon"><img src="/assets/desktop/google-podcasts.svg" alt=""></div>
+            <div class="affiliate-icon"><img src="/assets/desktop/pocket-casts.svg" alt=""></div>
+          </div>
+
         </div>
-        
+
       </div>
+
     </div>
+  </div>
 
   </div>
 
@@ -60,5 +64,6 @@
 
   </div>
 </body>
+<script src="index.js"></script>
 
 </html>
