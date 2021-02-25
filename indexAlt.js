@@ -12,4 +12,4 @@ submitButton.addEventListener("click", (ev) => {
     } else {
         error.style.display = "block";
     }
-});
+}); 
